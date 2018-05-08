@@ -14,7 +14,6 @@ calculatemean <- function(values){
 
     list(
         mean = paste(Mean),
-        sd = paste(SD),
-
+        sd = paste(SD)
     )
 }

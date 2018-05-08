@@ -17,8 +17,8 @@ cat_function <- function(love=TRUE){
 }
 
 
-calculateMean <- function(df, name = ""){
-    Mean = mean(df, na.rm = TRUE)
-    name = paste0("Mean", name)
-    return(Mean)
-}
+#calculateMean <- function(df, name = ""){
+#    Mean = mean(df, na.rm = TRUE)
+#    name = paste0("Mean", name)
+#    return(Mean)
+#}

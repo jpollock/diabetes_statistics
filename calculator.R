@@ -199,8 +199,8 @@ Measurement = R6Class ('Measurement',
                            patrn2 = as.logical(c('TRUE', 'TRUE', 'TRUE', 'TRUE', 'TRUE', 'TRUE'))
                            m2 = length(patrn2)
                            n2 = length(logical2)
-                           print(m2)
-                           print(n2)
+                           #print(m2)
+                           #print(n2)
                            candidate2 = seq.int(length = n2-m2+1)
                            print(candidate2)
                            for (i in seq.int(length=m2)) {
